@@ -1,6 +1,6 @@
 export interface TodoInterface {
-    name: string;
-  position: number;
-  weight: number;
-  symbol: string;
+  "userId": number,
+  "id": number,
+  "title": string,
+  "completed": boolean
 }

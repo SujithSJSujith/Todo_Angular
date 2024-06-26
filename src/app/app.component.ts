@@ -6,6 +6,7 @@ import { MatCardModule } from '@angular/material/card';
 import {FormsModule} from '@angular/forms'; //for checkbox
 import {MatCheckboxModule} from '@angular/material/checkbox';//for checkbox
 import { CompletedDirective } from './directive/completed.directive';
+import { TodoInterface } from './interface/todo.interface';
 
 @Component({
   selector: 'app-root',
